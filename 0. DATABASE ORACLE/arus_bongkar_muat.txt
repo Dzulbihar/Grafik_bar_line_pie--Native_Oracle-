@@ -1,0 +1,21 @@
+CREATE TABLE DASHBOARDGRAFIK.ARUS_BONGKAR_MUAT
+(
+  ID        INTEGER                             DEFAULT 0,
+  LOKASI    VARCHAR2(191 BYTE)                  DEFAULT '-',
+  TAHUN     INTEGER                             DEFAULT 0,
+  BULAN     VARCHAR2(45 BYTE)                   DEFAULT '-',
+  SHIPCALL  INTEGER                             DEFAULT 0,
+  GT        INTEGER                             DEFAULT 0,
+  IF20      INTEGER                             DEFAULT 0,
+  IF40      INTEGER                             DEFAULT 0,
+  IF45      INTEGER                             DEFAULT 0,
+  IE20      INTEGER                             DEFAULT 0,
+  IE40      INTEGER                             DEFAULT 0,
+  IE45      INTEGER                             DEFAULT 0,
+  EF20      INTEGER                             DEFAULT 0,
+  EF40      INTEGER                             DEFAULT 0,
+  EF45      INTEGER                             DEFAULT 0,
+  EE20      INTEGER                             DEFAULT 0,
+  EE40      INTEGER                             DEFAULT 0,
+  EE45      INTEGER                             DEFAULT 0
+)
